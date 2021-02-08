@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f7f7f7!important;
+}
+
+.single-food{
+    margin: 22px auto;
+}
+
+.form-box{
+    width: 50%;
+    margin: 20px auto;
+}
+
+ul#searchitemlist {
+    margin: 0px!important;
+    padding: 0px !important;
+    background-color: #fff;
+    width: 87%;
+}
+
+li.single-search-item {
+    list-style-type: none;
+    padding: 4px 0px;
+    border: 1px solid #dcdcdc;
+    
+}
+
+
+li.single-search-item:hover {
+   background-color: rgb(50, 139, 255);
+}
+
+h5.card-title.text-center {
+    background-color: #eaeaea;
+    padding: 8px;
+}
+
+.bg-light {
+    background-color: #e0e0e0!important;
+}
