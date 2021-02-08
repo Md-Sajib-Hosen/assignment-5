@@ -87,13 +87,13 @@ const getSearchFood = (getval) => {
         return response.json();
       })
       .then(data => {
-        if(!data.meals){
+        if (!data.meals) {
           singleFoodBodySelector.innerHTML = `<div class="card single-food" style="width: 35rem;">
           <div class="card-body">
             <h5 class="card-title">No data Found</h5>
           </div>
         </div>`
-        }else{
+        } else {
           const singleFood = (data.meals[0]);
           console.log(singleFood);
           singleFoodBodySelector.innerHTML = `<div class="card single-food" style="width: 35rem;">
@@ -114,7 +114,7 @@ const getSearchFood = (getval) => {
             </div>`
         }
 
-        
+
 
       })
   }
